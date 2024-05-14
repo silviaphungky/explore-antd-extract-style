@@ -14,6 +14,7 @@ export default function Home() {
       {data.map((item) => (
         <div key={item}>
           <Typography>{item}</Typography>
+          <Button>{item}</Button>
         </div>
       ))}
     </>
