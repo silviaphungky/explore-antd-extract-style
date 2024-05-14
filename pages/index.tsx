@@ -1,4 +1,4 @@
-import { Button, Typography } from 'antd'
+import { Button, Flex, Typography } from 'antd'
 import { useEffect, useState } from 'react'
 
 export default function Home() {
@@ -12,10 +12,12 @@ export default function Home() {
   return (
     <>
       {data.map((item) => (
-        <div key={item}>
+        <Flex key={item}>
           <Typography>{item}</Typography>
           <Button>{item}</Button>
-        </div>
+          <Typography>{item}</Typography>
+          <Typography>{item}</Typography>
+        </Flex>
       ))}
     </>
   )
