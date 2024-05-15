@@ -14,7 +14,10 @@ export default function Home() {
       {data.map((item) => (
         <Flex key={item}>
           <Typography>{item}</Typography>
-          <Button>{item}</Button>
+          <Typography>{item}</Typography>
+          <Typography>{item}</Typography>
+          <Typography>{item}</Typography>
+          <Typography>{item}</Typography>
           <Typography>{item}</Typography>
           <Typography>{item}</Typography>
         </Flex>
